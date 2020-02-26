@@ -1,4 +1,4 @@
-from tdx_func.core import NumericSeries
+from core import NumericSeries
 import numpy as np
 
 

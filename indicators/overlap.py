@@ -1,5 +1,5 @@
 #Overlap Studies 重叠研究
-from tdx_func.core import IndicatorSeries
+from core import IndicatorSeries
 
 
 class MovingAverageSeries(IndicatorSeries):

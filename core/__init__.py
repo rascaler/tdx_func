@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from tdx_func.utils import wrap_formula_exc, FormulaException
+from utils import wrap_formula_exc, FormulaException
 
 import numpy as np
 import talib

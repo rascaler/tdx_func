@@ -1,8 +1,8 @@
 #Momentum Indicators 动量指标
 # -*- coding: utf-8 -*-
-from tdx_func.funcs import *
-from tdx_func.funcs import LLV, HHV
-from tdx_func.indicators import EMA
+from funcs import *
+from funcs import LLV, HHV
+from indicators import EMA
 
 
 def KDJ(N=9, M1=3, M2=3):

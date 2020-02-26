@@ -1,7 +1,7 @@
-# from tdx_func.barfeed.mysqlfeed import MysqlFeed
-# from tdx_func.funcs import *
-# from tdx_func.funcs import IF, LLV, HHV, COUNT, EVERY, CROSS, ZIG
-# from tdx_func.indicators import MA
+# from barfeed.mysqlfeed import MysqlFeed
+# from funcs import *
+# from funcs import IF, LLV, HHV, COUNT, EVERY, CROSS, ZIG
+# from indicators import MA
 # import numpy as np
 #
 # feed = MysqlFeed('D')

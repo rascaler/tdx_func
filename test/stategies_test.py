@@ -1,7 +1,7 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-from tdx_func.barfeed.mysqlfeed import MysqlFeed
-from tdx_func.funcs import *
+from barfeed.mysqlfeed import MysqlFeed
+from funcs import *
 import numpy as np
 
 # RSV:=(CLOSE-LLV(LOW,6))/(HHV(HIGH,6)-LLV(LOW,6))*100;
@@ -18,8 +18,8 @@ import numpy as np
 # 低吸:IF(CROSS(RSI,11),70,0),POINTDOT,COLORWHITE;
 # VAR1:=B-B1>0 AND REF(B-B1,1)<0 AND COUNT(B-B1 <0,8) == 7;
 # XG:VAR1;
-from tdx_func.funcs import LLV, HHV, REF, COUNT, BARSLAST
-from tdx_func.indicators import EMA
+from funcs import LLV, HHV, REF, COUNT, BARSLAST
+from indicators import EMA
 
 # VARV:=(2*CLOSE+HIGH+LOW)/4;
 # VARU:=LLV(LOW,30);

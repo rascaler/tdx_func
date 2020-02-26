@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from tdx_func.core import BaseSeries, NumericSeries, BoolSeries
+from core import BaseSeries, NumericSeries, BoolSeries
 import numpy as np
 
 

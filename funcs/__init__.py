@@ -6,11 +6,11 @@
 """
 import numpy as np
 
-from tdx_func.core import NumericSeries
+from core import NumericSeries
 
 
 ### 初始化基本变量
-from tdx_func.funcs.api import *
+from funcs.api import *
 
 for name in ["open", "high", "low", "close", "volume", "amount", "datetime"]:
     dtype = np.float64 if name != "datetime" else np.uint64

@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 
-from tdx_func.core import NumericSeries, BoolSeries
-from tdx_func.core.common import getRealValue, parse_series
-from tdx_func.utils import FormulaException
+from core import NumericSeries, BoolSeries
+from core.common import getRealValue, parse_series
+from utils import FormulaException
 
 def cross(s1, s2):
     """

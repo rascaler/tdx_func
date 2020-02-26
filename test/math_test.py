@@ -1,5 +1,5 @@
-# from tdx_func.core import NumericSeries, BoolSeries
-# from tdx_func.funcs import barslast, REF
+# from core import NumericSeries, BoolSeries
+# from funcs import barslast, REF
 # import numpy as np
 #
 #
