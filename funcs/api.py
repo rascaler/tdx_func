@@ -125,9 +125,7 @@ def iif(condition, true_statement, false_statement):
     return NumericSeries(series)
 
 
-ZIG_STATE_START = 0
-ZIG_STATE_RISE = 1
-ZIG_STATE_FALL = 2
+
 def zig(X, N):
     """
     未来函数
@@ -135,6 +133,9 @@ def zig(X, N):
     :param N:
     :return:
     """
+    ZIG_STATE_START = 0
+    ZIG_STATE_RISE = 1
+    ZIG_STATE_FALL = 2
     x = N / 100
     k = X.series
     #候选值，索引
